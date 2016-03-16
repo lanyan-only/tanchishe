@@ -1,0 +1,56 @@
+*{
+	color:red;
+}
+body{
+	margin:0;
+	padding:0;
+}
+#sence{
+	width:600px;
+	height:600px;
+	margin:0 auto;
+	border:1px solid black;
+	background: url(../img/2-1.jpg);
+}
+.block{
+	width:29px;
+	height:29px;
+	background: url(../img/2-1.jpg);
+	margin-right:1px;
+	float:left;
+	margin-bottom: 1px;
+}
+.sheshen{
+	background: url(../img/sheshen.png) no-repeat;
+	background-size: 30px 30px;
+}
+.shiwu{
+	background: url(../img/shiwu.png) no-repeat;
+	background-size: 30px 30px;
+}
+.shetou{
+	background: url(../img/shetou.png) no-repeat;
+	background-size: 30px 30px;
+}
+
+
+
+.shouye{
+	width:600px;
+	height:600px;
+	background:url(../img/1.jpg);
+	position: absolute;
+	top:0;
+    left:50%;
+    margin-left: -300px;
+
+}
+input[type=button]{
+	width:159px;
+	height:43px;
+	position: absolute;
+	top:430px;
+	left:245px;
+	opacity: 0;
+
+}
