@@ -23,14 +23,17 @@ body{
 .sheshen{
 	background: url(../img/sheshen.png) no-repeat;
 	background-size: 30px 30px;
+	z-index: 300;
 }
 .shiwu{
 	background: url(../img/shiwu.png) no-repeat;
 	background-size: 30px 30px;
+	z-index: 300;
 }
 .shetou{
 	background: url(../img/shetou.png) no-repeat;
 	background-size: 30px 30px;
+	z-index: 300;
 }
 
 
@@ -54,7 +57,7 @@ input[type=button]{
 	opacity: 0;
 
 }
-@media (max-width: 650px){
+@media (max-width: 640px){
 	#sence{
 	width:320px;
 	height:320px;
@@ -62,10 +65,10 @@ input[type=button]{
 	border:1px solid black;
 	background: url(../img/2-1.jpg);
    }
-   .block{
+   #sence .block{
 	width:15px;
 	height:15px;
-	background: url(../img/2-1.jpg);
+	/*background: url(../img/2-1.jpg);*/
 	background-size: 15px 15px;
 	margin-right:1px;
 	float:left;
