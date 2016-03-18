@@ -54,3 +54,20 @@ input[type=button]{
 	opacity: 0;
 
 }
+@media (max-width: 650px){
+	#sence{
+	width:320px;
+	height:320px;
+	margin:0 auto;
+	border:1px solid black;
+	background: url(../img/2-1.jpg);
+   }
+   .block{
+	width:15px;
+	height:15px;
+	background: url(../img/2-1.jpg);
+	margin-right:1px;
+	float:left;
+	margin-bottom: 1px;
+   }
+}
