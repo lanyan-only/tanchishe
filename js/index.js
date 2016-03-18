@@ -86,9 +86,10 @@ $(function(){
     	}
     	fangxiang=e.keyCode;
     })
+    var dir2num = { 'right':39 , 'left':37 , 'up':38, 'down':40 };
     touch.on( this ,'swipe', function(e){
         e.preventDefault();
-        if( Math.abs( dir2num[e.direction] - dir2num[direct] ) === 2 ){
+        if( Math.abs( dir2num[e.fangxiang] - dir2num[fangxiang] ) === 2 ){
           return;
         }
         direct =  e.direction;
