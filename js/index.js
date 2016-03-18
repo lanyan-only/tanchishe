@@ -86,4 +86,11 @@ $(function(){
     	}
     	fangxiang=e.keyCode;
     })
+    touch.on( this ,'swipe', function(e){
+        e.preventDefault();
+        if( Math.abs( dir2num[e.direction] - dir2num[direct] ) === 2 ){
+          return;
+        }
+        direct =  e.direction;
+      })
 })
